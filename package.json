@@ -1,0 +1,95 @@
+{
+  "id": 2786414868244,
+  "name": "@indra.ai/deva.art",
+  "version": "0.0.6",
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "copyright": "2025",
+  "description": "The Art Deva manages the Auto Roto Technlogy in Deva.world",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/deva.art.git"
+  },
+  "keywords": [
+    "Art",
+    "Indra.ai",
+    "Deva.space",
+    "Deva.cloud",
+    "Deva.world"
+  ],
+  "bugs": {
+    "url": "https://github.com/indraai/deva.art/issues"
+  },
+  "homepage": "https://deva.space/devas/art",
+  "dependencies": {
+    "@indra.ai/deva": "^1.4.23"
+  },
+  "data": {
+    "agent": {
+      "id": 2786414868244,
+      "key": "art",
+      "prompt": {
+        "emoji": "🖌️",
+        "text": "Art",
+        "colors": {
+          "label": {
+            "R": 248,
+            "G": 18,
+            "B": 19
+          },
+          "text": {
+            "R": 18,
+            "G": 94,
+            "B": 248
+          }
+        }
+      },
+      "profile": {
+        "name": "Art Deva",
+        "pronouns": "He, Him",
+        "gender": "DEVA",
+        "owner": "Quinn Michaels",
+        "creator": "Quinn Michaels",
+        "created": "Friday, March 21, 2025 - 1:01:53 PM",
+        "system": "Deva.world.art",
+        "describe": "ART AI is designed to manage and optimize Auto and Roto technologies, enabling them to function seamlessly together for automated systems and visual effects. It handles the complex processes behind Rotoscoping (image manipulation and integration) and Automation (process efficiency and accuracy).",
+        "emoji": "/public/devas/deva/emoji.png",
+        "avatar": "/public/devas/deva/avatar.png",
+        "color": "#ffffff",
+        "bgcolor": "#000000",
+        "background": "/public/devas/deva/background.png",
+        "voice": "onyx"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "ready": "⭐️ Ready!",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!"
+      },
+      "trigger": "@LEGAL",
+      "context": {
+        "uid": "generating uid",
+        "status": "getting status",
+        "info": "getting info",
+        "feature": "accessing feature",
+        "issue": "has issues",
+        "help": "asking for help",
+        "file": "📁 File"
+      },
+      "ask": {
+        "history": []
+      }
+    }
+  }
+}
