@@ -1,3 +1,4 @@
+::BEGIN:MAIN
 # {{profil.ename}}
 
 {{profile}}
@@ -8,4 +9,4 @@
 #bg = {{profile.bg}}
 ::end:hidden
 copyright: (c)2025 Quinn Michaels
-
+::END:MAIN
